@@ -1,0 +1,339 @@
+:root {
+    --primary-color: #fcc100;
+    --secundary-color:#fc4700;
+}
+
+@media screen and (max-width: 768px) {
+
+   .container-zero, .container-one, header, .container-three, .container-mobile {
+      display: none;
+   }
+
+   .disp {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 35px;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+
+      p {
+         display:flex;
+         text-align: center;
+         justify-content: center;
+         margin: auto;
+         align-items: center;
+         padding: 20px;
+      }
+
+      img {
+         margin: auto;
+         display: flex;
+         justify-content: center;
+         justify-content: center;
+         align-items: center;
+      }
+   }
+
+   /* *{
+      padding: 0;
+      margin: 0;
+   }
+
+   body {
+      width: 100%;
+   }
+
+   .container-zero, header {
+      display: none;
+   }
+
+
+   .logo-and-pedir {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 15px;
+      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.062);
+      margin-bottom: 10px;
+   }
+
+   .img-logo {
+      width: 50px;
+      height: 45px;
+      margin: auto;
+   }
+
+   .pedir-mob {
+      display: flex;
+      justify-content: right;   
+
+      ul {
+         background-color: rgb(255, 145, 0);
+         margin: auto;
+         text-align: center;
+         width: 70px;
+         height: 35px;
+         border: 2px solid rgb(17, 17, 17);
+         border-radius: 15px;
+      }
+
+      a {
+         text-decoration: none;
+         text-align: center;
+         padding: 0px 5px;
+         color: rgb(17, 17, 17);
+         font-family: Arial, Helvetica, sans-serif;
+         font-weight: bold;
+      }
+      li {
+         list-style: none;
+         padding-top: 10px;
+         text-align: center;
+         
+      }
+   }
+
+   .nav-bar-mobile, .sub-mob {
+      display: flex;
+      justify-content: center;
+      position: sticky;
+
+      ul {
+         display: flex;
+         gap: 10px;
+         padding: 10px 0px;
+      }
+
+      li {
+         list-style: none;
+         display: flex;
+         
+      }
+
+      a {
+         text-decoration: none;
+         display: flex;
+         color: #D8CBA9;
+      }  a:hover {
+         text-decoration: none;
+         display: flex;
+         color: #ada48e;
+        border-bottom: 1px solid  #ada48e;
+      }
+   } 
+
+   .banner {
+      margin-top: 15px;
+      background-image: url(/img/banner.png);
+      border-radius: 0 0 15px 15px;
+   
+      display: flex;
+      padding: 30px;
+      justify-content: center;
+
+      .card {
+         padding: 10px 20px;
+         letter-spacing: 1px;
+         width: 250px;
+         height: auto;
+         background-color: rgb(255, 255, 255);
+         font-family: Arial, Helvetica, sans-serif;
+         border-radius: 10px;
+
+
+         input, p {
+            display: block;
+            margin: 8px 0px;
+            width: 100%;
+            border: none;
+         }
+
+         .button {
+            
+            width: 100%;
+            background-color: rgba(255, 202, 89, 0.315);
+            padding: 5px;
+            margin-top: 10px;
+         }
+
+
+      }
+   }
+
+   .sobre-fr-svg {
+      display: flex;
+      padding: 10px 15px 0px 15px;
+      justify-content: space-between;
+      align-items: center;
+      border-radius: 0px 0px 10px 10px;
+   }
+
+   .frase {
+      gap: 10px;
+
+      p {
+         font-family: "Edu NSW ACT Hand Pre", cursive;
+         width: auto;
+      }
+      
+      strong {
+         color: red;
+         font-size: 20px;
+      }
+   }
+
+   .svg {
+      width: 100%;
+   }
+
+   .promo {
+      font-family: "Edu NSW ACT Hand Pre", cursive;
+      font-size: 30px;
+      padding: 0px 15px;
+      margin-top: 30px;
+
+      p {
+         color: var(--secundary-color);
+      }
+
+      strong {
+         color: red;
+      }
+
+      .card-promo {
+         flex-direction: column;
+         width: 100%;
+      }
+      .imga-prin {
+         width: 100%;
+         border-radius: 20px;
+      }
+   }
+
+   .fp {
+
+      font-family: "Edu NSW ACT Hand Pre", cursive;
+      font-size: 30px;
+      color: var(--secundary-color);
+      padding: 0px 15px;
+      margin-bottom: 20px;
+   
+      
+      strong {
+         color: red;
+         font-size: 20px;
+      }
+   }
+
+
+   .avaliacoes {
+      width: 100%;
+      padding: 20px 0px;
+   }  
+
+   .card-avaliacoes {
+      display: flex;
+      justify-content: center;
+   }
+
+   .comentario {
+      border: 0.5px solid rgba(0, 0, 0, 0.192);
+      width: 300px;
+      height: auto;
+      padding: 15px 15px;
+      border-radius: 15px;
+      margin-bottom: 5px;
+   }
+   
+   .fp {
+
+      font-family: "Edu NSW ACT Hand Pre", cursive;
+      font-size: 30px;
+      color: var(--secundary-color);
+      padding: 0px 15px;
+      margin-bottom: 20px;
+   
+      
+      strong {
+         color: red;
+         font-size: 20px;
+      }
+   }
+
+   .foot-com {
+      display: flex;
+      padding-bottom: 5px;
+      font-family: Arial, Helvetica, sans-serif;
+      
+      p {
+         display: flex;
+         align-items: center;
+         padding: 5px;
+      }
+   }
+
+   .star {
+      padding: 5px 0px;
+      i {
+      color: var(--primary-color);
+      padding: 10px 2px;
+    }
+   }
+
+   .msg-ava {
+      font-family: Arial, Helvetica, sans-serif;
+      padding: 5px 0px;
+   }
+
+   footer  {
+      width: 100%;
+      background-color: #14131d;
+      border-radius: 15px 15px 0 0;
+     
+   }
+
+   .container-three {
+      padding: 15px 15px;
+      display: flex;
+      text-align: center;
+
+   }
+
+   .footer-contatos {
+      margin: auto;
+   }
+
+
+   .map-tx {
+      color: #D8CBA9;
+   }
+
+   .contatos {
+      padding: 15px 0px;
+      display: flex;
+      justify-content: center;
+      margin-top: 5px;
+
+      li {
+         list-style: none;
+         padding: 0px 5px;
+      }
+
+      i {
+         color: #ffffff;
+         padding: 10px;
+         background-color: #ffffffc2;
+         border-radius: 5px;
+      }
+
+
+      a {
+         font-size: 20px;
+      }
+
+   }
+
+   .build {
+      display: none;
+   } */
+
+}
