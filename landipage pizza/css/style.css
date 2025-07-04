@@ -18,7 +18,9 @@
 
 body {
     background-color: #ffffff;
+    width: 100%;
 }
+
 .card-pedir {
     background-color: rgba(142, 236, 1, 0.685);
     backdrop-filter: blur(10px);
@@ -27,7 +29,10 @@ body {
     border-radius: 5px;
     transition: 1.5s all ease;
     border: 1.5px solid white;
-} .card-pedir:hover {
+
+} 
+
+.card-pedir:hover {
     background-color: #14131d;
 }
 
@@ -87,8 +92,9 @@ header {
 
 .container-one {
     margin: auto;
+    width: 1050px;
     max-width: 100%;
-    padding: 0px 150px;
+   
 }
 
 .img-logo {
@@ -312,7 +318,7 @@ header {
 
  .btn-carda {
     background-color: #ffffff;
-    border: 1px solid #ff0000;
+    border: 1px solid #ff5050;
     border-radius: 10px;
     cursor: pointer;
     transition: 2s all ease;
@@ -362,9 +368,10 @@ width: 100%;
 }
 
 .comentario {
-    width: auto;
+    max-width: 400px;
     height: auto;
     padding: 20px;
+    margin: auto;
     background-color: #ffffff8f;
     margin-bottom: 20px;
     border: 1px solid rgba(0, 0, 0, 0.151);
@@ -470,10 +477,10 @@ i {
 footer {
     background-color: #14131d;
     border-radius: 15px 15px 0 0 ;
-    
 }
 
 .build {
+    position: fixed;
     margin: auto;
     text-align: center;
 }
